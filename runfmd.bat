@@ -1,0 +1,1 @@
+py detect.py --weights runs/train/yolov5s_results/weights/best.pt --conf 0.5 --iou 0.5 --img 416 --line-thickness 1 --nosave --source http://192.168.0.4:8080/video --stream
